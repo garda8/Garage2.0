@@ -13,7 +13,7 @@ namespace Garage2._0Erik.Models
         
         public string Owner  { get; set; }
         
-        public EColor Color { get; set; }
+        public ColorType Color { get; set; }
         
         public int NumberOfWheels { get; set; }
 
@@ -29,7 +29,7 @@ namespace Garage2._0Erik.Models
         Motorcycle
     }
 
-    public enum EColor
+    public enum ColorType
     {
         White,
         Grey,
